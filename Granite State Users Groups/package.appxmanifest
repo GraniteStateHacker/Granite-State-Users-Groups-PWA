@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="3dc36ba1-3e75-4532-bd94-bcd4d68ae8e7" Version="1.0.0.0" Publisher="CN=jwilc" />
-  <mp:PhoneIdentity PhoneProductId="3dc36ba1-3e75-4532-bd94-bcd4d68ae8e7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="64830GraniteStateHacker.GraniteStateUsersGroups" Version="1.1.0.0" Publisher="CN=D0A778E0-8DC8-4EC3-BAD7-9421AE99F2EB" />
+  <mp:PhoneIdentity PhoneProductId="86fd68f4-2e9a-4078-b334-9c543a1b0006" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Granite State Users Groups</DisplayName>
-    <PublisherDisplayName>Granite State Hacker</PublisherDisplayName>
+    <PublisherDisplayName>The Granite State Hacker</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -14,9 +14,9 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" StartPage="https://example.com">
+    <Application Id="App" StartPage="http://app.granitestateusersgroup.com">
       <uap:ApplicationContentUriRules>
-        <uap:Rule Match="https://example.com" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://app.granitestateusersgroups.com" Type="include" WindowsRuntimeAccess="all" />
         <uap:Rule Match="https://*.*" Type="include" WindowsRuntimeAccess="none" />
         <uap:Rule Match="http://*.*" Type="include" WindowsRuntimeAccess="none" />
       </uap:ApplicationContentUriRules>
